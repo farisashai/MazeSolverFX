@@ -80,36 +80,6 @@ public class Controller implements Initializable {
                 update();
             }
         });
-        pane.setOnKeyPressed(e -> {
-            switch (e.getCode().getName()) {
-                case "W":
-                    System.out.println("up");
-
-
-                    break;
-                case "A":
-                    System.out.println("left");
-
-
-                    break;
-                case "S":
-                    System.out.println("down");
-
-
-                    break;
-                case "D":
-                    System.out.println("right");
-
-
-                    break;
-                default:
-
-
-
-                    break;
-            }
-        });
-    }
 
     private void runGenerator() {
         status.setText("STATUS: GENERATING");
